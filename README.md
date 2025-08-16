@@ -1,44 +1,44 @@
-# **TETRIS GAME**
+# **TETRIS GAME** 🟦🟥🟩🟨🟪🟧
 
-## Create and activate a virtual environment (recommended)
+## Create and activate a virtual environment 🌐(recommended)
 ```sh
 python --version
 ```
 
-## Windows
+## Windows 💻
 ```sh 
 python -m venv .venv
 .venv\Scripts\activate
 ```
 
-## MacOS/Linux
+## MacOS/Linux 🍎/🐧
 ```sh 
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-## Install dependency
+## Install dependency✅
 ```sh 
 pip install pygame
 ```
 
-## Save the game file in this folder as:
+## Save the game file in this folder as: 📁
 ```sh 
 tetris.py
 ```
 
 - Paste the full Tetris script into that file.
-- Run the game
+- Run the game 💻
 ```sh
 python tetris.py
 ```
 
-## If macOS/Linux
+## If macOS/Linux 🍎/🐧
 ```sh 
 python3 tetris_fullscreen_no_overlap.py
 ```
 
-## Controls
+## Controls🎮
 - Left/Right: Move
 - Down: Soft drop
 - Up or X: Rotate clockwise
@@ -48,9 +48,9 @@ python3 tetris_fullscreen_no_overlap.py
 - P: Pause/Resume
 - R: Restart
 - Esc: Quit
-- - Mouse: Click Restart / Exit buttons
+- Mouse: Click Restart / Exit buttons
 
-## Notes
+## Notes 📝
 - Runs fullscreen and auto-scales to prevent overlap.
 - Shows only the next 3 pieces (smaller size).
 - Scoreboard displays High score and recent scores (numbers only).
